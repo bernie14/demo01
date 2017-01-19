@@ -11,18 +11,19 @@ namespace teht11
         static void Main(string[] args)
         {
             int length;
-            Console.WriteLine("GIB LENGTH");
+            Console.WriteLine("Give me your desired number of lines of fucking stars");
             string str = Console.ReadLine();
             length = int.Parse(str);
 
             for (int i = 0; i < length; i++)
             {
                 Console.WriteLine("");
-                for (int j = i; j < length; j++)
+                for (int j = 0; j < i+1; j++)
                 {
                     Console.Write("*");
                 }
             }
+            Console.WriteLine("\n\nWhy would you want to print stars? Most worthless program I've ever seen.");
         }
     }
 }
